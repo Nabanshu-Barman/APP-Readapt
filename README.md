@@ -133,16 +133,22 @@ Readapt is built for **everyone**—students with dyslexia, students learning ne
 
 8. **Export/Sync Preset**
    - See what feels best? Use the browser extension to apply the same preset on any website.
-9. **Browser Extension (Inline Mode)**
+9. **Browser Extension (Inline & Overlay Modes)**
    - Use the preset slider to select your preferred adaptation (steps of 0.25, from 1 to 3).
-   - Visit any website (e.g., Wikipedia) and click the floating "Readapt" button to instantly adapt all text *inline*—right on the page, not as an overlay.
+   - Visit any website (e.g., Wikipedia) and click the floating "Readapt" button to instantly adapt all text *inline*—right on the page, or in overlay mode for a focused reading experience.
    - At the highest preset, letter hints for b/d/p/q/m/n/u are enabled.
 
    **Demo: Readapt Adapting Wikipedia Inline**
 
-   ![Browser Extension Inline Demo on Wikipedia](Readapt-frontend/images/repo/browser-extension.png)
+   ![Browser Extension Inline Demo on Wikipedia](Readapt-frontend/images/repo/browser-extension-inline.png)
 
    *Above: Readapt adapts Wikipedia’s article text inline—spacing, font size, and letter highlights are applied directly to the page you’re on!*
+
+   **Demo: Readapt Adapting Wikipedia with Overlay**
+
+   ![Browser Extension Overlay Demo on Wikipedia](Readapt-frontend/images/repo/browser-extension-overlay.png)
+
+   *Above: Readapt overlay extracts Wikipedia’s main article into a distraction-free reader, applying your chosen preset for comfort and accessibility.*
 
 ---
 
@@ -204,12 +210,12 @@ java --module-path "D:\javafx-sdk-21.0.8\lib" --add-modules javafx.controls,java
 **Usage:**
 - Open the extension popup.
 - Use the preset slider to select your preferred adaptation (steps of 0.25, from 1 to 3).
-- Visit any website (e.g., Wikipedia) and click the floating "Readapt" button to instantly adapt all text *inline*—right on the page, not as an overlay.
+- Visit any website (e.g., Wikipedia) and click the floating "Readapt" button to instantly adapt all text *inline*—right on the page, or use overlay mode for a focused reading experience.
 - At the highest preset, letter hints for b/d/p/q/m/n/u are enabled.
 
 **Demo: Readapt Adapting Wikipedia Inline**
 
-![Browser Extension Inline Demo on Wikipedia](Readapt-frontend/images/repo/browser-extension.png)
+![Browser Extension Inline Demo on Wikipedia](Readapt-frontend/images/repo/browser-extension-inline.png)
 
 *Above: Readapt adapts Wikipedia’s article text inline—spacing, font size, and letter highlights are applied directly to the page you’re on!*
 
